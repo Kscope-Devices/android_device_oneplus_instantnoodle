@@ -21,10 +21,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from instantnoodle device
 $(call inherit-product, device/oneplus/instantnoodle/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Kscope stuff.
+$(call inherit-product, vendor/kscope/config/mobile.mk)
 
-PRODUCT_NAME := lineage_instantnoodle
+PRODUCT_NAME := kscope_instantnoodle
 PRODUCT_DEVICE := instantnoodle
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
