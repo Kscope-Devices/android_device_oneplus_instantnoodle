@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/instantnoodle/device.mk)
 
 # Inherit some common Kscope stuff.
-$(call inherit-product, vendor/kscope/config/mobile.mk)
+$(call inherit-product, vendor/kscope/target/product/mobile.mk)
 
 PRODUCT_NAME := kscope_instantnoodle
 PRODUCT_DEVICE := instantnoodle
